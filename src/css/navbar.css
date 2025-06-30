@@ -1,0 +1,123 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-but1 {
+  background: #004aad;
+  padding: 5px 15px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-but {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* dropdown */
+.mini-drop{
+  background: aliceblue;
+    padding: 10px;
+    position: absolute;
+    /* transform: translateY(-320px); */
+    transition: ease-in 0.4s;
+    z-index: 1;
+    margin-top: 182px;
+    width: 150px;
+    /* transform: translate(-75px, -320px); */
+    margin-left: -120px;
+    cursor: pointer;
+    
+}
+.opendropdown svg {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.opendropdown{
+  position: relative;
+  display: flex
+;
+    align-items: center;
+}
+.opendropdown:hover .mini-drop {
+  /* transform: translateY(0px); */
+}
+ul.navbar {
+    display: flex
+;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: -10px;
+}
+.togg {
+    display: flex;
+    cursor: pointer;
+;
+ 
+}
+@media screen and (min-width:1024px) {
+  .togg{
+    display: none;
+  }
+  ul.navbar{
+    display: flex;
+  }
+   .mobile-nav {
+    display: none !important;
+   }
+ 
+  
+  
+}
+  .disable{
+    display: none;
+   }
+@media screen and (max-width:1024px) {
+  .togg{
+    display: flex;
+  }
+  ul.navbar{
+    display: none;
+  }
+  .mobile-nav {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 10px; */
+    background: aliceblue;
+    color: white;
+    padding: 20px;
+    transition: all ease-in 0.5s; 
+    /* position: relative; */
+  }
+.togg svg {
+    display: flex
+;
+    color: black;
+    align-items: center;
+    margin-top: 4px;
+}
+  ul .mobile-navbar {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  
+  
+}

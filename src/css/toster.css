@@ -1,0 +1,138 @@
+.tost h3 {
+    text-align: center;
+
+}
+
+.custom-toast {
+ position: fixed;
+  top: 60px;
+  right: 20px;
+ 
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 9999;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
+.custom-toast.Success {
+  background:rgb(196, 236, 136);
+}
+.custom-toast.Error {
+  background:rgb(211, 101, 101);
+}
+.custom-toast.Warning {
+  background:rgb(117, 117, 236);
+}
+
+.custom-toast.Info {
+  background:rgb(248, 200, 111);
+}
+
+
+
+
+
+
+.custom-toast::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #000;
+  width: 0;
+  animation: expandBorder 5s ease forwards;
+}
+
+@keyframes expandBorder {
+   from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.success-btn {
+    background-color: rgb(139, 209, 35);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-btn{
+  background-color: #ffb347;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.info-btn{
+  background-color: aquamarine;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.war-btn{
+  background-color: cadetblue;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.all-tost-btn {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.tostsd {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+button.toast-btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Success{
+  background-color: #ff416c;
+
+}
+.Warning{
+  background-color: #0056d2;
+}
+.Info{
+  background-color:tomato;
+}
+.Error{
+  background-color: cadetblue;
+}

@@ -1,0 +1,109 @@
+.fit-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+      gap: 7px;
+}
+.fit-foot h6 {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+.catt1 {
+  padding: 30px 10px 30px 10px;
+  background: #f0f8ffa3;
+}
+.left-foot {
+  width: 50%;
+}
+.center-fot {
+  width: 30%;
+}
+.right-foot {
+  width: 20%;
+}
+.foot-co {
+  color: #000000ba;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.foot-ico {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.left-foot img {
+  margin-bottom: 10px;
+}
+.all-foot {
+  display: flex;
+}
+.right-foot h6,
+.center-fot h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 20px;
+}
+ul li {
+  color: black;
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.bg-foot {
+  padding-top: 40px;
+}
+.def {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+.last-ft {
+  background: #004aad;
+  padding: 10px 10px;
+}
+.allft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftft p {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.leftft svg {
+  color: red;
+}
+
+@media screen and (max-width: 680px) {
+ 
+  .all-foot {
+  
+    flex-direction: column;
+}
+.left-foot {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.center-fot {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.right-foot {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.allft {
+    flex-direction: column;
+}
+}

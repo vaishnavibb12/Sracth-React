@@ -1,0 +1,244 @@
+.cont h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 36px;
+  font-weight: 600;
+  color: black;
+}
+.catt2 {
+  padding: 30px 10px 60px 10px;
+}
+span.vv {
+  color: #004aad;
+}
+.all-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+.left-contt {
+  background: white;
+  padding: 45px 20px 30px 20px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  height: max-content;
+}
+.lefft-cont {
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.left-side {
+  display: grid
+;
+ 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.left-side label {
+  border-bottom: 1px solid black;
+  width: 240px;
+  color: black;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.fgs svg {
+align-items: center;
+    display: flex
+;
+}
+.full-con p {
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  color: black;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.att-file {
+  border: 1px solid black;
+  color: black;
+}
+.att-file {
+  border: 1px solid black;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.cont-but {
+
+     background: #004aad;
+    border-radius: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.att-file p {
+  font-weight: 700;
+  font-size: 12px;
+}
+.right-con h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.content p {
+  padding-top: 15px;
+}
+.right-contt {
+  background: #f2f7ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.right-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.right-con p {
+  color: black;
+}
+.faq {
+  border: 1px solid #004aad;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background: #ffffff6b;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.faq p {
+  color: black;
+}
+.faq svg,
+.faqs svg {
+  background: #004aad;
+  border-radius: 50px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.faqs {
+  border: 1px solid #004aad;
+  border-radius: 10px;
+  background: #ffffff6b;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  color: black;
+  cursor: pointer;
+}
+.fgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .left-side p {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 1044px) {
+  .left-side p {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .left-side p {
+    width: 160px;
+  }
+  .all-cont {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+input.form-control {
+    /* margin-bottom: 15px; */
+    height: 60px;
+    width: 100%;
+    border: 1px solid black ;
+}
+
+.form-group input[type="text"]:focus, .form-group input[type="password"]:focus,.form-group input[type="email"]:focus,.form-group select:focus,.form-group textarea:focus{
+
+	border-color:#000;
+
+}
+input {
+  color: black; /* or another visible color */
+  background-color: white;
+   display: block;
+  visibility: visible;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  color: #000; /* Ensures text is visible */
+  background-color: #fff; /* Ensures background isn't blending */
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+form#contact-form {
+    /* border: 1px solid black; */
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+}
+.error {
+  border: 1px solid red !important;
+}
+.reqiure {
+    color: red;
+    margin-bottom: 10px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.add-new svg {
+    position: absolute;
+    right: 15px;
+    top: 24px;
+    color: black;
+    cursor: pointer;
+}
+.added-new svg {
+        position: absolute;
+    right: 10px;
+    top: 13px;
+    color: black;
+    cursor: pointer;
+}
+.add-new, .added-new {
+    position: relative;
+}
+.register p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.register {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+

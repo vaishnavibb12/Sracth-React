@@ -1,0 +1,228 @@
+.slider-bg {
+  background-image: url(../assets/Group-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  position: relative;
+  padding: 30px 10px 30px 10px;
+}
+.slide-cont {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.slide-cont h2 {
+  color: white;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.bg-sodebox1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 5px;
+
+  border-radius: 8px;
+}
+.bg-sodebox {
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.under-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+.under-box svg {
+  width: 30px;
+  height: 30px;
+}
+button {
+  background: orange;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.inside-container {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.all-bg-sodebox {
+  padding: 30px 80px 40px 80px;
+}
+.pro {
+  color: black;
+  padding-top: 20px;
+}
+
+.sub-pro {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+.sub-ng {
+  background: #004aad36;
+  padding: 2px 15px;
+  border-radius: 24px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left p {
+  color: black;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+/* .top-otsite img {
+  width: 190px;
+  height: 60px;
+} */
+
+.top-otsite {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px;
+}
+.top-inside {
+  padding: 170px 10px 30px 10px;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+}
+
+.fg {
+  padding: 30px 10px 0px 10px;
+  position: relative;
+  top: 160px;
+}
+.fg h6 {
+  font-size: 18px;
+  color: black;
+}
+
+.top-cat {
+  border-bottom: 1px solid #00000026;
+  padding: 0px 10px 0px 10px;
+}
+
+@media screen and (max-width: 1600px) {
+  .top-otsite img {
+    width: 190px;
+    height: 60px;
+  }
+  .top-inside {
+    flex-wrap: wrap;
+  }
+  .top-otsite {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 771px) {
+  .all-bg-sodebox {
+    padding: 30px 20px 40px 20px;
+  }
+ 
+  .nav-but1 {
+    font-size: 12px !important;
+  }
+ 
+      .inside-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+        .all-bg-sodebox {
+        padding: 10px 10px 10px 10px !important; 
+    }
+   
+}
+@media screen and (max-width: 1200px) {
+  .all-bg-sodebox {
+    padding: 30px 20px 40px 20px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .inside-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 577px) {
+.nav-but1 {
+  display: none;
+}
+.top-inside {
+    padding: 100px 10px 30px 10px;
+}
+.slide-cont h2 {
+  font-size: 28px;
+}
+.under-box, .left p, .sub-pro {
+  font-size: 12px;
+}
+ .fg {
+       padding: 60px 10px 0px 10px;
+       top: 90px;
+  }
+
+}
+@media screen and (max-width: 430px) {
+
+ .fg {
+       padding: 10px 10px 0px 10px;
+       top: 130px;
+  }
+      .top-inside {
+        padding: 150px 10px 30px 10px;
+    }
+.under-box, .left p, .sub-pro {
+  font-size: 8px;
+}
+}
+
+.leftArrow {
+      position: absolute;
+    bottom: 34px;
+    left: 0;
+    transform: translateY(-50%);
+    color: black;
+    cursor: pointer;
+}
+.rightArrow {
+     position: absolute;
+    bottom: 34px;
+    right: 0;
+    transform: translateY(-50%);
+    color: black;
+    cursor: pointer;
+}
+
+.under-box input {
+    border: none;
+    background: none;
+    width: max-content;
+}
+.under-box input:focus-visible {
+  outline: none;
+}
