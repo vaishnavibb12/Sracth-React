@@ -9,7 +9,7 @@ function category() {
     <div className="catt">
       <div className="container">
         <div className="head-cat">
-          <h2>
+          <h2 style={{color:"black"}}>
             Category <span>wise Listing</span>
           </h2>
           <div className="min-ic">
@@ -18,39 +18,7 @@ function category() {
           </div>
         </div>
 
-        {/* <div className="all-sites">
-          {categoty.map((item) => {
-            return (
-              <div className="left-site">
-                <div className="left-cont">
-                  <h6>{item.sectionTitle}</h6>
-                  <img src={q2}></img>
-                </div>
-                <div className="left-topimg">
-                  <div className="img1">
-                    <img src={item.imgFile}></img>
-                    <div className="pg">{item.imageName}</div>
-                  </div>
-                  <div className="img1">
-                    <img src={item.imgFile1}></img>
-                    <div className="pg">{item.imageName1}</div>
-                  </div>
-                </div>
-                <div className="left-bottomimg">
-                  <div className="img1">
-                    <img src={item.imgFile2}></img>
-                    <div className="pg">{item.imageName2}</div>
-                  </div>
-                  <div className="img1">
-                    <img src={item.imgFile3}></img>
-                    <div className="pg">{item.imageName3}</div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div> */}
-
+      
         {/* +++++++++++++++++++++++++++++++ */}
         {/* +++++++++++++++++++++++++++++++ */}
         <div className="all-sites">

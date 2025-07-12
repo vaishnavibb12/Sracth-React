@@ -8,7 +8,7 @@ import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { ImCross } from "react-icons/im";
 
-function navbar() {
+function Navbar() {
   const [isOpen, serIsOpen] = useState(false);
   const toggler = () => {
     serIsOpen(!isOpen);
@@ -33,7 +33,7 @@ function navbar() {
                 <Link to="product">Category</Link>
               </li>
               <li>
-                <Link to="about">About</Link>
+                <Link to="shoppingCart">ShoppingCart</Link>
               </li>
               <li>
                 <Link to="contact">Contact</Link>
@@ -84,4 +84,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

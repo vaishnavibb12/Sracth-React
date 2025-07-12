@@ -4,22 +4,27 @@ import Category from "../component/category.jsx";
 import Contact from "../component/contact.jsx";
 import Toast from "../component/toast.jsx";
 
-import Todaytodolist from "../component/todaytodolist.jsx";
-import Context1 from "../context/context1.jsx";
+import ToDoList from "../component/ToDoList.jsx";
+import ContextForm from "../component/ContextForm.jsx";
+import { EditProvider } from "../Usecontext/Usecontext.jsx";
+import UseReftext from "../component/UseReftext.jsx";
 
 
 function home() {
   return (
     <div>
-     
-    <Context1/>
-         <Todaytodolist />
+      
+
+      <UseReftext/>
+      <EditProvider>
+      <ContextForm />
+      </EditProvider>
+      <ToDoList />
+
       <Slider />
       <Category />
       <Contact />
       <Toast />
-   
-     
     </div>
   );
 }

@@ -44,7 +44,7 @@ function slider() {
         <div className="container">
           <div className="slide-cont">
             <h2>Supplier, Categories, Products & More</h2>
-            <p>Get The Verified Suppliers on Pipex.ai</p>
+            <p style={{color:"white"}}>Get The Verified Suppliers on Pipex.ai</p>
           </div>
           <div className="inside-container">
             <div className="bg-sodebox">

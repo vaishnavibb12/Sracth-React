@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { FaTrashAlt, FaCheck, FaEdit, FaSave } from "react-icons/fa";
 import "../css/todaytodolist.css";
 
-const todaytodolist = () => {
+const ToDoList = () => {
   const [activeTab, setActiveTab] = useState("false");
   const [alltodos, setTodos] = useState([]);
   const [completedTodos, setCompletedTodos] = useState([]);
@@ -17,7 +17,7 @@ const todaytodolist = () => {
     const formValues = {
       title: titleNew.current.value,
       content: contentNew.current.value,
-      completed: false,
+      completed: false, 
     };
     console.log(formValues);
 
@@ -133,7 +133,7 @@ const todaytodolist = () => {
                       {!item.completed && (
                         <>
                        
-                         <p className="status"> Pending</p>
+                        
                           {editIndex === index ? (
                             <FaSave onClick={handleSave} />
                           ) : (
@@ -154,7 +154,7 @@ const todaytodolist = () => {
                       <p>{item.content}</p>
                     </div>
                     <div className="icons">
-                       <p className="status"> Live</p>
+                   
                       <FaTrashAlt onClick={() => handleDeletedItem(index)} />
                     </div>
                   </div>
@@ -167,4 +167,4 @@ const todaytodolist = () => {
   );
 };
 
-export default todaytodolist;
+export default ToDoList;

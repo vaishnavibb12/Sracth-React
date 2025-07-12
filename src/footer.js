@@ -13,7 +13,7 @@ const foot = [
       { text: "Steel Tube" },
       { text: "Steel Tube" },
       { text: "Steel Tube" },
-       { text: "Steel Tube" },
+
     ],
   },
 ];

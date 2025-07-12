@@ -21,7 +21,7 @@ function contact() {
   };
   const RenderError = ({ message }) => {
     if (!message) return null;
-    return <div className="reqiure">{message}</div>;
+     return <div className="reqiure">{message}</div>;
   };
 
   const [formData, setFormData] = useState({
